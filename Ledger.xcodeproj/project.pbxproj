@@ -8,11 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		069B7E4722723B6A00F516C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E4622723B6A00F516C4 /* AppDelegate.swift */; };
-		069B7E4922723B6A00F516C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E4822723B6A00F516C4 /* ViewController.swift */; };
-		069B7E4C22723B6A00F516C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069B7E4A22723B6A00F516C4 /* Main.storyboard */; };
 		069B7E4E22723B6B00F516C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069B7E4D22723B6B00F516C4 /* Assets.xcassets */; };
 		069B7E5122723B6B00F516C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069B7E4F22723B6B00F516C4 /* LaunchScreen.storyboard */; };
 		069B7E5C22723B6B00F516C4 /* LedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E5B22723B6B00F516C4 /* LedgerTests.swift */; };
+		069B7E6822723C8A00F516C4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6722723C8A00F516C4 /* Currency.swift */; };
+		069B7E6922723C9200F516C4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6722723C8A00F516C4 /* Currency.swift */; };
+		069B7E6B2272401300F516C4 /* CurrencyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6A2272401300F516C4 /* CurrencyTest.swift */; };
+		069B7E6D227245EA00F516C4 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6C227245EA00F516C4 /* Value.swift */; };
+		069B7E6F227245F700F516C4 /* ValueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6E227245F700F516C4 /* ValueTest.swift */; };
+		069B7E702272476500F516C4 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6C227245EA00F516C4 /* Value.swift */; };
+		069B7E7222724B1800F516C4 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E7122724B1800F516C4 /* TagTests.swift */; };
+		069B7E7422724B2200F516C4 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E7322724B2200F516C4 /* Tag.swift */; };
+		069B7E7522724D0E00F516C4 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E7322724B2200F516C4 /* Tag.swift */; };
+		069B7E772272559100F516C4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E762272559100F516C4 /* Category.swift */; };
+		069B7E79227255DA00F516C4 /* CategoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E78227255DA00F516C4 /* CategoryTests.swift */; };
+		069B7E7A2272568E00F516C4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E762272559100F516C4 /* Category.swift */; };
+		069B7E7C227257BC00F516C4 /* AccountingRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E7B227257BC00F516C4 /* AccountingRecord.swift */; };
+		069B7E7D2272599500F516C4 /* AccountingRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E7B227257BC00F516C4 /* AccountingRecord.swift */; };
+		069B7E7F22725CA600F516C4 /* AccountingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E7E22725CA600F516C4 /* AccountingTests.swift */; };
+		069B7E82227264EF00F516C4 /* ValuePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E81227264EF00F516C4 /* ValuePresenter.swift */; };
+		069B7E842272680A00F516C4 /* ValueConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E832272680A00F516C4 /* ValueConverter.swift */; };
+		069B7E86227268C900F516C4 /* ValueConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E85227268C900F516C4 /* ValueConverterTests.swift */; };
+		069B7E87227269FE00F516C4 /* ValueConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E832272680A00F516C4 /* ValueConverter.swift */; };
+		069B7E89227320C900F516C4 /* ValueReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E88227320C900F516C4 /* ValueReducer.swift */; };
+		069B7E8B2273236900F516C4 /* ValueReducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E8A2273236900F516C4 /* ValueReducerTests.swift */; };
+		069B7E8C2274C92E00F516C4 /* ValueReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E88227320C900F516C4 /* ValueReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +48,27 @@
 /* Begin PBXFileReference section */
 		069B7E4322723B6A00F516C4 /* Ledger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ledger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069B7E4622723B6A00F516C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		069B7E4822723B6A00F516C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		069B7E4B22723B6A00F516C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		069B7E4D22723B6B00F516C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		069B7E5022723B6B00F516C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069B7E5222723B6B00F516C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069B7E5722723B6B00F516C4 /* LedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069B7E5B22723B6B00F516C4 /* LedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerTests.swift; sourceTree = "<group>"; };
 		069B7E5D22723B6B00F516C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		069B7E6722723C8A00F516C4 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		069B7E6A2272401300F516C4 /* CurrencyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTest.swift; sourceTree = "<group>"; };
+		069B7E6C227245EA00F516C4 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		069B7E6E227245F700F516C4 /* ValueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTest.swift; sourceTree = "<group>"; };
+		069B7E7122724B1800F516C4 /* TagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
+		069B7E7322724B2200F516C4 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		069B7E762272559100F516C4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		069B7E78227255DA00F516C4 /* CategoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTests.swift; sourceTree = "<group>"; };
+		069B7E7B227257BC00F516C4 /* AccountingRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountingRecord.swift; sourceTree = "<group>"; };
+		069B7E7E22725CA600F516C4 /* AccountingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountingTests.swift; sourceTree = "<group>"; };
+		069B7E81227264EF00F516C4 /* ValuePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuePresenter.swift; sourceTree = "<group>"; };
+		069B7E832272680A00F516C4 /* ValueConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueConverter.swift; sourceTree = "<group>"; };
+		069B7E85227268C900F516C4 /* ValueConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueConverterTests.swift; sourceTree = "<group>"; };
+		069B7E88227320C900F516C4 /* ValueReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueReducer.swift; sourceTree = "<group>"; };
+		069B7E8A2273236900F516C4 /* ValueReducerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueReducerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +110,8 @@
 		069B7E4522723B6A00F516C4 /* Ledger */ = {
 			isa = PBXGroup;
 			children = (
+				069B7E6622723C7600F516C4 /* Domain */,
 				069B7E4622723B6A00F516C4 /* AppDelegate.swift */,
-				069B7E4822723B6A00F516C4 /* ViewController.swift */,
-				069B7E4A22723B6A00F516C4 /* Main.storyboard */,
 				069B7E4D22723B6B00F516C4 /* Assets.xcassets */,
 				069B7E4F22723B6B00F516C4 /* LaunchScreen.storyboard */,
 				069B7E5222723B6B00F516C4 /* Info.plist */,
@@ -92,8 +124,38 @@
 			children = (
 				069B7E5B22723B6B00F516C4 /* LedgerTests.swift */,
 				069B7E5D22723B6B00F516C4 /* Info.plist */,
+				069B7E6A2272401300F516C4 /* CurrencyTest.swift */,
+				069B7E6E227245F700F516C4 /* ValueTest.swift */,
+				069B7E7122724B1800F516C4 /* TagTests.swift */,
+				069B7E78227255DA00F516C4 /* CategoryTests.swift */,
+				069B7E7E22725CA600F516C4 /* AccountingTests.swift */,
+				069B7E85227268C900F516C4 /* ValueConverterTests.swift */,
+				069B7E8A2273236900F516C4 /* ValueReducerTests.swift */,
 			);
 			path = LedgerTests;
+			sourceTree = "<group>";
+		};
+		069B7E6622723C7600F516C4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				069B7E80227264B500F516C4 /* Domain Controllers */,
+				069B7E6722723C8A00F516C4 /* Currency.swift */,
+				069B7E6C227245EA00F516C4 /* Value.swift */,
+				069B7E7322724B2200F516C4 /* Tag.swift */,
+				069B7E762272559100F516C4 /* Category.swift */,
+				069B7E7B227257BC00F516C4 /* AccountingRecord.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		069B7E80227264B500F516C4 /* Domain Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				069B7E81227264EF00F516C4 /* ValuePresenter.swift */,
+				069B7E832272680A00F516C4 /* ValueConverter.swift */,
+				069B7E88227320C900F516C4 /* ValueReducer.swift */,
+			);
+			path = "Domain Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +241,6 @@
 			files = (
 				069B7E5122723B6B00F516C4 /* LaunchScreen.storyboard in Resources */,
 				069B7E4E22723B6B00F516C4 /* Assets.xcassets in Resources */,
-				069B7E4C22723B6A00F516C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				069B7E4922723B6A00F516C4 /* ViewController.swift in Sources */,
+				069B7E7422724B2200F516C4 /* Tag.swift in Sources */,
+				069B7E772272559100F516C4 /* Category.swift in Sources */,
+				069B7E6822723C8A00F516C4 /* Currency.swift in Sources */,
+				069B7E7C227257BC00F516C4 /* AccountingRecord.swift in Sources */,
+				069B7E89227320C900F516C4 /* ValueReducer.swift in Sources */,
+				069B7E842272680A00F516C4 /* ValueConverter.swift in Sources */,
 				069B7E4722723B6A00F516C4 /* AppDelegate.swift in Sources */,
+				069B7E82227264EF00F516C4 /* ValuePresenter.swift in Sources */,
+				069B7E6D227245EA00F516C4 /* Value.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +274,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069B7E8B2273236900F516C4 /* ValueReducerTests.swift in Sources */,
+				069B7E8C2274C92E00F516C4 /* ValueReducer.swift in Sources */,
+				069B7E86227268C900F516C4 /* ValueConverterTests.swift in Sources */,
+				069B7E6922723C9200F516C4 /* Currency.swift in Sources */,
+				069B7E6B2272401300F516C4 /* CurrencyTest.swift in Sources */,
+				069B7E702272476500F516C4 /* Value.swift in Sources */,
+				069B7E7D2272599500F516C4 /* AccountingRecord.swift in Sources */,
+				069B7E7522724D0E00F516C4 /* Tag.swift in Sources */,
+				069B7E87227269FE00F516C4 /* ValueConverter.swift in Sources */,
 				069B7E5C22723B6B00F516C4 /* LedgerTests.swift in Sources */,
+				069B7E7A2272568E00F516C4 /* Category.swift in Sources */,
+				069B7E7222724B1800F516C4 /* TagTests.swift in Sources */,
+				069B7E6F227245F700F516C4 /* ValueTest.swift in Sources */,
+				069B7E7F22725CA600F516C4 /* AccountingTests.swift in Sources */,
+				069B7E79227255DA00F516C4 /* CategoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +303,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		069B7E4A22723B6A00F516C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				069B7E4B22723B6A00F516C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		069B7E4F22723B6B00F516C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
