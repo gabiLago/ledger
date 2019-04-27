@@ -12,7 +12,7 @@ class ValueReducerTests: XCTestCase {
 
     let fiveEuros = Value(amount: 5, currency: "EUR")
     let tenDollars = Value(amount: 10.0, currency: "USD")
-    let valuesArray = [Value(amount: 5, currency: "EUR"), Value(amount: 10.0, currency: "USD"), Value(amount: 5, currency: "EUR")]
+    let dummyValuesArray = [Value(amount: 5, currency: "EUR"), Value(amount: 10.0, currency: "USD"), Value(amount: 5, currency: "EUR")]
    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -24,9 +24,9 @@ class ValueReducerTests: XCTestCase {
 
     func testReduceValuesDifferentCurrencies() {
         
-        XCTAssertEqual(valueReducer(values: valuesArray, toCurrency: Currency(code: "USD") ), Value(amount: 15, currency: "USD") )
+        XCTAssertEqual(valueReducer(values: dummyValuesArray, toCurrency: Currency(code: "USD") ), Value(amount: 15, currency: "USD") )
 
-        XCTAssertNotEqual(valueReducer(values: valuesArray, toCurrency: Currency(code: "USD") ), Value(amount: 12.5, currency: "USD") )
+        XCTAssertNotEqual(valueReducer(values: dummyValuesArray, toCurrency: Currency(code: "USD") ), Value(amount: 12.5, currency: "USD") )
       
     }
     

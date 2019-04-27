@@ -10,7 +10,6 @@
 		069B7E4722723B6A00F516C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E4622723B6A00F516C4 /* AppDelegate.swift */; };
 		069B7E4E22723B6B00F516C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069B7E4D22723B6B00F516C4 /* Assets.xcassets */; };
 		069B7E5122723B6B00F516C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069B7E4F22723B6B00F516C4 /* LaunchScreen.storyboard */; };
-		069B7E5C22723B6B00F516C4 /* LedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E5B22723B6B00F516C4 /* LedgerTests.swift */; };
 		069B7E6822723C8A00F516C4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6722723C8A00F516C4 /* Currency.swift */; };
 		069B7E6922723C9200F516C4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6722723C8A00F516C4 /* Currency.swift */; };
 		069B7E6B2272401300F516C4 /* CurrencyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B7E6A2272401300F516C4 /* CurrencyTest.swift */; };
@@ -52,7 +51,6 @@
 		069B7E5022723B6B00F516C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069B7E5222723B6B00F516C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069B7E5722723B6B00F516C4 /* LedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		069B7E5B22723B6B00F516C4 /* LedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerTests.swift; sourceTree = "<group>"; };
 		069B7E5D22723B6B00F516C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069B7E6722723C8A00F516C4 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		069B7E6A2272401300F516C4 /* CurrencyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTest.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 		069B7E5A22723B6B00F516C4 /* LedgerTests */ = {
 			isa = PBXGroup;
 			children = (
-				069B7E5B22723B6B00F516C4 /* LedgerTests.swift */,
 				069B7E5D22723B6B00F516C4 /* Info.plist */,
 				069B7E6A2272401300F516C4 /* CurrencyTest.swift */,
 				069B7E6E227245F700F516C4 /* ValueTest.swift */,
@@ -283,7 +280,6 @@
 				069B7E7D2272599500F516C4 /* AccountingRecord.swift in Sources */,
 				069B7E7522724D0E00F516C4 /* Tag.swift in Sources */,
 				069B7E87227269FE00F516C4 /* ValueConverter.swift in Sources */,
-				069B7E5C22723B6B00F516C4 /* LedgerTests.swift in Sources */,
 				069B7E7A2272568E00F516C4 /* Category.swift in Sources */,
 				069B7E7222724B1800F516C4 /* TagTests.swift in Sources */,
 				069B7E6F227245F700F516C4 /* ValueTest.swift in Sources */,

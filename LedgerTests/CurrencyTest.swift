@@ -40,3 +40,5 @@ class CurrencyTest: XCTestCase {
         XCTAssertEqual(euro.hashValue, Currency(code: "EUR").hashValue)
     }
 }
+
+

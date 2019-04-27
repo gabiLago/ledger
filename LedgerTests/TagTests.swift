@@ -34,3 +34,4 @@ class TagTests: XCTestCase {
         XCTAssertNotEqual(Tag.cash.hashValue, Tag.earnings.hashValue)
     }
 }
+

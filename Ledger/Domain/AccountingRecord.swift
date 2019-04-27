@@ -52,3 +52,4 @@ extension AccountingRecord: Hashable {
         hasher.combine(category)
     }
 }
+

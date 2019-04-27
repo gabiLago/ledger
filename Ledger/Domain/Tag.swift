@@ -11,3 +11,5 @@ import Foundation
 enum Tag : CaseIterable{
     case cash, notesPayable, earnings, initialInvestment, inventory
 }
+
+

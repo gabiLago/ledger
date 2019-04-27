@@ -11,3 +11,5 @@ import Foundation
 enum Category : CaseIterable{
     case assets, Liabilities, ownersEquity
 }
+
+

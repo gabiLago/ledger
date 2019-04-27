@@ -38,7 +38,5 @@ class ValueTest: XCTestCase {
         
         XCTAssertNotEqual(Value(amount: 5.9, currency: "EUR").hashValue, Value(amount: 5.0, currency: "EUR").hashValue)
     }
-    
-    
-
 }
+

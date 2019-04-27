@@ -34,3 +34,4 @@ class CategoryTests: XCTestCase {
         XCTAssertNotEqual(Category.assets.hashValue, Category.ownersEquity.hashValue)
     }
 }
+

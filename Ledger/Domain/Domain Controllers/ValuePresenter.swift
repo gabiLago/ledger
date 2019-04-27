@@ -18,3 +18,4 @@ extension ValuePresenter {
         return "\(value.amount) \(value.currency)"
     }
 }
+

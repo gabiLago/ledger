@@ -35,3 +35,4 @@ class ValueConverterTests: XCTestCase {
         XCTAssertEqual(five, DummyConverter.shared.convert(value: ten, toCurrency: dollar))
     }
 }
+

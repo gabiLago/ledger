@@ -28,6 +28,7 @@ struct DummyConverter: ValueConverter {
         return Value(amount: value.amount * rate , currency: toCurrency)
     }
     
+    
     func pivotUsdCurrencyConverted(value: Value) -> Double {
         
         let extractedValue = convert(value: value, toCurrency: Currency(code: "USD"))

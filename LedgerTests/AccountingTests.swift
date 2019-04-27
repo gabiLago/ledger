@@ -35,5 +35,5 @@ class AccountingTests: XCTestCase {
         XCTAssertNotEqual(cash2, cash3)
         
     }
-
 }
+
